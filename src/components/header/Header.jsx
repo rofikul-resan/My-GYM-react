@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const navList = [
-    { id: 1, url: "./", name: "Home" },
+    { id: 1, url: "/", name: "Home" },
     { id: 2, url: "/about", name: "About" },
     { id: 3, url: "/services", name: "Services" },
     { id: 4, url: "/products", name: "Products" },
